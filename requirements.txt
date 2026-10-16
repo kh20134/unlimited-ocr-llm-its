@@ -1,0 +1,3 @@
+# GPU 없는 데모와 웹 화면. torch 와 Unlimited-OCR 가중치는 포함하지 않습니다.
+gradio>=4.44
+pymupdf>=1.24

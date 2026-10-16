@@ -1,0 +1,13 @@
+# 로컬 Unlimited-OCR. NVIDIA CUDA GPU에서만 의미가 있습니다.
+# 업스트림이 확인한 조합은 Python 3.12, CUDA 12.9, 아래 버전입니다.
+# CPU 환경에는 설치하지 마세요. 기본 데모는 requirements.txt 만으로 됩니다.
+-r requirements.txt
+torch==2.10.0
+torchvision==0.25.0
+transformers==4.57.1
+Pillow==12.1.1
+matplotlib==3.10.8
+einops==0.8.2
+addict==2.4.0
+easydict==1.13
+psutil==7.2.2
